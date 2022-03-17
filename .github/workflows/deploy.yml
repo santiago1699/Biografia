@@ -13,16 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1 
-      with:
-        node-version: ${{matrix.node-version}}
+        with:
+            node-version: ${{matrix.node-version}}
       - name: install packages
-      run: npm install
+        run: npm install
       - name: registry github user
-      run: |
-        git config --global user.email <castrosantiago349@gmail.com>
-        git config --global user.name <santiago1699>
+        run: |
+            git config --global user.email <castrosantiago349@gmail.com>
+            git config --global user.name <santiago1699>
       - name: deploy the app
-      run: npm run deploy
-      env:
-        BUENOS_AIRES_CIUDAD: ${{ secrets.BUENOS_AIRES_CIUDAD }}
-
+        run: npm run deploy
+        env:
+            BUENOS_AIRES_CIUDAD: ${{ secrets.BUENOS_AIRES_CIUDAD }}
