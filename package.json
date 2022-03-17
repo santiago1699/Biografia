@@ -1,5 +1,5 @@
 {
-  "homepage":"santiago1699.github.io/buenosairesciudad.git",
+  "homepage":"santiago1699.github.io/buenosairesciudad",
   "name": "examen",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run start",
-    "deploy": "gh-pages -d build -r https://$BUENOS_AIRES_CIUDAD@github.com/santiago1699/buenosairesciudad.git"
+    "deploy": "gh-pages -d build -r https://$BUENOS_AIRES_CIUDAD@github.com/santiago1699/buenosairesciudad"
   },
   "eslintConfig": {
     "extends": [
