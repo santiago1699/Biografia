@@ -21,12 +21,10 @@ const Footer = () => {
           <a href="www.linkedin.com/in/santiago-castro-a960151a9" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/SantiagoC_800" target="_blank" rel="noreferrer">
             <i className="fab fa-twitter twitter"></i>
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-facebook facebook"></i>
-          </a>
+
         </div>
       </div>
     </footer>
